@@ -1,0 +1,232 @@
+
+
+#titleMobile h1 {
+    color: white;
+    background-color: #12A76C;
+    padding: 12px 0;  
+    
+}
+
+#titleTablet h1 {
+    color: white;
+    background-color: #12A76C;
+    padding: 12px 0;  
+}
+#titleWeb h1 {
+    color: white;
+    background-color: #12A76C;
+    padding: 12px 0;  
+}
+
+/*estilos de CartaMobile*/
+#Cartas{
+    width: 315px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
+    
+    margin: 0 auto;
+}
+
+#CartaMobile{
+    height: 1px;
+    padding-left: 30px;
+    
+    
+}
+
+#CartaMobile h5{ /*principal*/
+    color: white;
+    background-color: #339BA4;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 0;
+    margin: 0;
+}
+#CartaMobile .vista{ /*Vista*/
+    color: white;
+    background-color: #3D6CB2;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 0;
+    margin: 0;
+}
+#contenedor-img-title{
+    width: 243px;
+    height: 175px;
+    
+}
+.info1{
+    font-size: 15px;
+    color: #616161;
+}
+.info2{
+    color: #616161;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*estilos de CartaTablet*/
+#CartasTablet{
+    width: 710px;
+    height: 388px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
+    margin: 0 auto;
+}
+
+#CartaTablet{
+    height: 1px;
+    padding-left: 30px;
+}
+
+#CartaTablet h5{
+    color: white;
+    background-color: #339BA4;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 0;
+    margin: 0;
+}
+#CartaTablet .vista{
+    color: white;
+    background-color: #3D6CB2;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 0;
+    margin: 0;
+}
+#contenedor-img-titleTablet{
+    width: 405px;
+    height: 250px;
+    margin-left: 106px;
+    margin-top: 15px;
+}
+
+/*Estilos de Botones de Tablet*/
+.botonTablet1{
+    background-color: #339BA4;
+    color: white;
+    float: left;
+    width: 43%;
+    font-weight: bold;
+}
+.botonTablet2{
+    background-color: #0074D9;
+    color: white;
+    margin-left: 13%;
+    width: 40%; 
+    font-weight: bold;
+
+}
+
+/*Estilos Web*/
+#CartaWeb{
+    padding-left: 30px;
+}
+
+#CartaWeb h5{
+    color: white;
+    background-color: #339BA4;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 0;
+    margin: 0;
+}
+#CartaWeb .vista{
+    color: white;
+    background-color: #3D6CB2;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 0;
+    margin: 0;
+}
+
+
+/************* Media Querys de titulo ************/
+@media screen and (min-width: 320px){
+    #titleMobile{
+        display: block;
+    }
+    #titleWeb{
+        display: none;
+    }
+    #titleTablet{
+        display: none;
+    }
+}
+
+/*reduce lo maximo para evitar errores en el diseño*/
+    @media screen and (max-width: 320px){
+        #titleMobile{
+            display: block;
+        }
+        #titleWeb{
+            display: none;
+        }
+        #titleTablet{
+            display: none;
+        }
+    }
+
+@media screen and (min-width: 768px){
+    #titleMobile{
+        display: none;
+    }
+    #titleWeb{
+        display: block;
+    }
+    #titleTablet{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    #titleMobile{
+        display: none;
+    }
+    #titleWeb{
+        display: none;
+    }
+    #titleTablet{
+        display: block;
+    }
+}
+
+/******************* Media querys para contenido *****************/
+
+@media screen and (min-width: 320px){
+    #contenidoMobile{
+        display: block;
+    }
+    #contenidoTablet{
+        display: none;
+    }
+    #contenidoWeb{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px){
+    #contenidoMobile{
+        display: none;
+    }
+    #contenidoTablet{
+        display: block;
+    }
+    #contenidoWeb{
+        display: none;
+    }
+}
+@media screen and (min-width: 1024px){
+    #contenidoMobile{
+        display: none;
+    }
+    #contenidoTablet{
+        display: none;
+    }
+    #contenidoWeb{
+        display: block;
+    }
+}
